@@ -8,8 +8,8 @@ port = 2468
 try:
     s.connect((host, port)) 
 
-    yanit = s.recv(1024)
-    print(yanit.decode("utf-8"))
+    response = s.recv(1024)
+    print(response.decode("utf-8"))
 
     s.close() 
 except socket.error as msg:
