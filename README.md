@@ -1,4 +1,4 @@
-# python-for-offsec
+# Python for Offsec
 
 Hello 👋🏻 ,
 
