@@ -19,7 +19,7 @@ while True:
    c, addr = s.accept()      
    print('connection', addr)
 
-   mesaj = 'connected'
-   c.send(mesaj.encode('utf-8')) 
+   message = 'connected'
+   c.send(message.encode('utf-8')) 
 
    c.close()
